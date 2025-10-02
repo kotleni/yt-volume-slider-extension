@@ -1,9 +1,9 @@
 {
   "name": "Youtube Volume Control",
-  "description": "Custom volume control for Youtube.",
+  "description": "Better and bigger custom youtube volume silder extension.",
   "version": "1.0.0",
   "manifest_version": 2,
-  "homepage_url": "https://github.com/kotleni/yt-volctl",
+  "homepage_url": "https://github.com/kotleni/yt-volume-slider-extension",
   "browser_action": {
   },
   "icons": {

@@ -1,0 +1,19 @@
+{
+  "name": "Youtube Volume Control",
+  "description": "Custom volume control for Youtube.",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "homepage_url": "https://github.com/kotleni/yt-volctl",
+  "browser_action": {
+  },
+  "icons": {
+    "48": "logo48.png"
+  },
+  "content_scripts" : [
+    {
+      "matches": ["*://*.youtube.com/watch*"],
+      "js": ["index.js"],
+      "css" : ["index.css"]
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 const SLIDER_RANGE_MAX = 400;
 
 // Inject css
-const linkElement = document.createElement('link');
-linkElement.rel = 'stylesheet';
-linkElement.type = 'text/css';
-linkElement.href = browser.runtime.getURL('index.css');
-document.head.appendChild(linkElement);
+// const linkElement = document.createElement('link');
+// linkElement.rel = 'stylesheet';
+// linkElement.type = 'text/css';
+// linkElement.href = (browser|chrome).runtime.getURL('content.css');
+// document.head.appendChild(linkElement);
 
 const video = document.body.querySelector('.video-stream');
 
